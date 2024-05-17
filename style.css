@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    
+}
+
+.nav-container {
+    display: flex;
+  
+    gap: 8px;
+    align-items: flex-start;
+    background-color: #1F2937;
+    font-weight: 800px;
+    font-size: 18px;
+    padding: 20px;
+       
+}
+.nav-container > * {
+    color: white;
+}
+.nav-logo {
+    margin-left: 24x;
+    font-family: run;
+    font-size: 24px;
+}
+.home {
+    margin-left: auto;
+}
+.learn {
+    margin-right: 24px;
+}
+
+.header-container {
+    display: inline-flex;
+    background-color: #1F2937;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 350px; /*the height of the entire container*/
+    gap: 20px;
+}   
+
+.header-container > * {
+    color: white;
+    width: 300px;
+    flex-direction: column;
+    height: 275px
+}
+.head {
+    font-size: 48px;
+} 
+.head-para {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button {
+    border-radius: 5%;
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    
+}
+/*third section with images */
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    margin-top: 18px;
+}
+img {
+   width: 300px;
+   height: 300px;
+   
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: auto;
+    outline: blue;
+    flex-wrap: wrap;
+}
+.text {
+    padding: 6px;
+    text-align: center;
+    clor
+}
+.info {
+    max-width: 300px;
+}
+
+.quote-container {
+    display: flex;
+    height: 200px;
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 50px 300px 50px;
+    margin-top: 50px;
+}
+
+
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.container {
+    display: flex; /* Enables Flexbox for the container */
+    justify-content: space-around;
+    gap: 8pxpx;
+    background-color: #3882F6;
+    width: 900px;
+    height: auto;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    color: white;
+    padding: 16px;
+    
+  }
+
+  .click {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 16px;
+    
+  }
+
+  .text-head {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .text-body {
+    margin-top: 6px;
+  }
