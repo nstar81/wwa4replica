@@ -71,3 +71,28 @@ img {
     display: flex;
    
 }
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.norefund {
+    color: red;
+    font-weight: 800px;
+    
+}
+footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    margin-top: 80px;
+}
