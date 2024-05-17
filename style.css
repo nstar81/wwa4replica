@@ -52,11 +52,14 @@
 }
 button {
     border-radius: 5%;
-    background-color: #3882F6;
-    color: white;
+    background-color: #f6ed38;
+    color: black;
     width: 100px;
-    
 }
+.address {
+    width: 500px;
+}
+
 /*third section with images */
 .title {
     display: flex;
@@ -67,10 +70,10 @@ button {
     margin-top: 18px;
 }
 img {
-   width: 300px;
-   height: 300px;
-   
-}
+    width: 300px;
+    height: 300px;
+    
+ }
 
 .boxes {
     display: flex;
@@ -79,6 +82,8 @@ img {
     height: auto;
     outline: blue;
     flex-wrap: wrap;
+    
+    
 }
 .text {
     padding: 6px;
@@ -122,15 +127,17 @@ footer {
     display: flex; /* Enables Flexbox for the container */
     justify-content: space-around;
     gap: 8pxpx;
-    background-color: #3882F6;
+    background-color: #f63838;
     width: 900px;
     height: auto;
     align-self: center;
     margin: auto;
     margin-bottom: 75px;
     margin-top: 75px;
-    color: white;
+    color: black;
     padding: 16px;
+    
+    
     
   }
 
