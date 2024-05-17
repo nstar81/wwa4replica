@@ -1,6 +1,28 @@
 * {
     margin: 0;
     border: 2px solid red;
+
+}
+
+
+a:link {
+    color: none;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+a:link, a:visited {
+    text-decoration: none;
 }
 
 .nav-container {
@@ -9,14 +31,14 @@
     align-items: flex-start;
     background-color: #010101;
     font-weight: 800px;
-    font-size: 18px;
-    padding: 20px;       
+    font-size: 25px;
+    padding: 20px; 
 }
 
 .nav-container > * {
     color: yellow;
     margin-top: 10px;
-    
+  
 } 
 
 .nav-logo {
@@ -29,52 +51,6 @@
     
 }
 
-/* .home {
-    margin-left: auto;
-} */
-.logo-container {
-   display: flex;
-   margin-top: 20px;
-   justify-content: center;
-   
-    
-}
-/* .header-container {
-    display: flex;
-    background-color: #1F2937;
-    align-items: center;
-    justify-content: center;
-    height: 350px; /*the height of the entire container*/
-    gap: 20px;
-}   
-*/
-/*.header-container > * {
-    color: white;
-    width: 300px;
-    
-    height: 275px
-} */
-
-.head {
-    font-size: 48px;
-} 
-
-.head-para {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-button {
-    border-radius: 5%;
-    background-color: #f6ed38;
-    color: black;
-    width: 100px;
-}
-
-.address {
-    width: 500px;
-}
-
 /*third section with images */
 .title {
     display: flex;
@@ -83,29 +59,33 @@ button {
     font-weight: 800;
     margin-bottom: 32px;
     margin-top: 18px;
+    font-family: Marker Felt, fantasy;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     
  }
 
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     height: auto;
-    outline: blue;
+    outline: yellow;
     flex-wrap: wrap;  
+   
 }
 .text {
     padding: 6px;
     text-align: center;
+    font-family: Chalkduster, fantasy;
+    
 }
 
 .info {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .quote-container {
@@ -113,7 +93,7 @@ img {
     height: 200px;
     background-color: #E5E7EB;
     margin: 0;
-    padding: 50px 200px 250px;
+    padding: 50px 200px 50px;
     margin-top: 50px;
 }
 
