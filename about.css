@@ -55,14 +55,33 @@ a:link, a:visited {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
-
+p , li {
+    font-family: Felt, fantasy;
+}
 img {
     width: 300px;
     height: 300px;
 }
 
+.yourtrainer {
+    font-family: Chalkduster, fantasy;
+    font-size: 34px;
+    color: red;
+    text-shadow: 1px 1px yellow;
+    margin: auto;
+}
+
+.achievements {
+    font-family: Chalkduster, fantasy;
+    font-size: 34px;
+    color: red;
+    text-shadow: 1px 1px yellow;
+    margin: auto;
+}
 .content {
     width: 600px;
 }
@@ -72,16 +91,40 @@ img {
    
 }
 
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    font-family: Chalkduster, fantasy;
+    font-size: 34px;
+    color: red;
+    text-shadow: 1px 1px yellow;
+    margin: auto;
+}
+
+.hoursetc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.aboutus {
+    margin-left: 200px;
+}
+.memperk {
+    margin-left: 350px;
+}
+
+.training {
+    margin-left: 200px;
+}
+
+
 .info {
     display: flex;
-    justify-content: space-evenly;
-}
+    justify-content: s;
 
-.title{
-    display: flex;
-    justify-content: space-evenly;
 }
-
 .norefund {
     color: red;
     font-weight: 800px;
