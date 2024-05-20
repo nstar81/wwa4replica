@@ -4,13 +4,15 @@
     border: 2px solid red;
     flex-wrap: wrap;
     
+    
 }
- body {
-    background-image: url('images/blkbrick.jpeg');
+/* body {
+    background-image: url('images/bricks.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
  }
+ */
 /* link control start */
 a:link {
     color: none; 
@@ -82,7 +84,10 @@ a:link, a:visited {
     border: 2px red;
     height: 300px;
     background-color: #000000;
-    background-image: linear-gradient(to bottom right, red, black, black, yellow, black, black, red);
+    background-image: url('images/bricks.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     justify-content: center;
     margin: 0;
     margin: 8px 200px 8px 200px;
@@ -120,7 +125,7 @@ a:link, a:visited {
     display: flex;
     align-items: center;
     font-family: Chalkduster, fantasy;
-    background-color: black;
+    background-color: yellow;
     color: white;
     margin: auto;
     margin-top: 8px;

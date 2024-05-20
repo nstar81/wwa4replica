@@ -1,0 +1,162 @@
+/* nav bar start */
+* {
+  margin: 0;
+  border: 2px solid red;
+  flex-wrap: wrap;
+  
+}
+
+/* link control start */
+a:link {
+  color: none;
+}
+
+a:visited {
+  color: red;
+  font-style: normal;
+}
+
+a:hover {
+  color: black;
+  /* background-image: linear-gradient(to right, red, black, red);*/
+  text-shadow: 1px 1px red;
+}
+
+/* a:active {
+  color: rgb(0, 255, 81);
+} */
+
+a:link, a:visited {
+  text-decoration: none;
+}
+/* link control end */
+
+/* nav bar start */
+.nav-logo {
+  margin-left: 80px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  /*background-image: */
+  font-weight: 800px;
+  padding: 20px; 
+  justify-content: center;
+  color: yellow;
+  font-family: Chalkduster, fantasy;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+  flex-wrap: wrap;
+}
+.mem {
+  margin-right: auto;
+}
+
+.about {
+  margin-left: auto;
+}
+ 
+.payment {
+  margin-right: 80px;
+}
+/* nav bar end*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    margin-top: 18px;
+    font-family: Marker Felt, fantasy;
+}
+
+/*img {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    background-color: ;
+    
+ }*/
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    outline: yellow;
+    flex-wrap: wrap;
+    border: 2px lime;  
+   
+}
+.text {
+    padding: 6px;
+    text-align: start;
+    font-family: Chalkduster, fantasy;
+    margin-top: 20px;
+    
+}
+h1 {
+    background: lime;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 1px red;
+    background-color: yellow;
+}
+.info {
+    max-width: 400px;
+    border: 5px solid red;
+}
+.refund {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+
+  
+}
+.button {
+  display: flex;
+  
+}
+button {
+  width: 100px;
+  height: 65px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin: auto;
+  font-family: Chalkduster, fantasy;
+  font-style: italic;
+  color: yellow;
+  text-shadow: 1px 1px Red;
+  background-color: black;
+  
+}
+
+/*form template */
+
+
+/* form end */
+
+footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    margin-top: 80px;
+    
+}
