@@ -1,78 +1,68 @@
-
+/* nav bar start */
 * {
-    margin: 0;
-    border: 2px solid red;
-    flex-wrap: wrap;
+  margin: 0;
+  border: 2px solid red;
+  flex-wrap: wrap;
+  
 }
 
+/* link control start */
 a:link {
-    color: none;
+  color: none;
 }
 
 a:visited {
-    color: black;
-    font-style: normal;
+  color: red;
+  font-style: normal;
 }
 
 a:hover {
-    color: yellow;
+  color: black;
+  /* background-image: linear-gradient(to right, red, black, red);*/
+  text-shadow: 1px 1px red;
 }
 
-a:active {
-    color: rgb(0, 255, 81);
-}
+/* a:active {
+  color: rgb(0, 255, 81);
+} */
 
 a:link, a:visited {
-    text-decoration: none;
+  text-decoration: none;
+}
+/* link control end */
+
+/* nav bar start */
+.nav-logo {
+  margin-left: 80px;
 }
 
 .nav-container {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background-image: linear-gradient(to right, black, red, black, yellow, black, red, black);
-    font-weight: 800px;
-    padding: 20px; 
-    justify-content: center;
-    color: black;
-    font-family: Chalkduster, fantasy;
-    font-size: 32px;
-    text-shadow: 1px 1px yellow;
-    font-style: italic;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  /*background-image: */
+  font-weight: 800px;
+  padding: 20px; 
+  justify-content: center;
+  color: yellow;
+  font-family: Chalkduster, fantasy;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+  flex-wrap: wrap;
 }
-
-
 .mem {
-    
-    margin-right: auto;
-   
+  margin-right: auto;
 }
 
-.trainer {
-    margin-left: auto;
-}
-   
 .about {
-    margin-right: 80px;
+  margin-left: auto;
 }
-
-.home {
-    margin-left: 80px;
+ 
+.payment {
+  margin-right: 80px;
 }
-/*.nav-container > * {
-    color: black;
-    margin-top: 5px;
-    font-family: Chalkduster, fantasy;
-    font-size: 24px;
-    text-shadow: 1px 1px yellow;
-    font-style: italic;
-    flex-wrap: wrap;
-  
-} */
-
-
-
+/* nav bar end*/
 
 /* start of form */
 @import url('https://fonts.googleapis.com/css?family=Abel');
@@ -87,10 +77,7 @@ body, html {
 
 body {
   font-size: 1.2em;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/logo.webp) center no-repeat cover;
-  -moz-animation: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
+  background: url(./images/logo.webp) center no-repeat cover;
   background-size: cover;
 }
 

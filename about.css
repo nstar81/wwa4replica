@@ -1,56 +1,68 @@
+/* nav bar start */
 * {
     margin: 0;
     border: 2px solid red;
-
+    flex-wrap: wrap;
+    
 }
 
-
+/* link control start */
 a:link {
     color: none;
 }
 
 a:visited {
-    color: yellow;
+    color: red;
+    font-style: normal;
 }
 
 a:hover {
-    color: white;
+    color: black;
+    /* background-image: linear-gradient(to right, red, black, red);*/
+    text-shadow: 1px 1px red;
 }
 
-a:active {
-    color: red;
-}
+/* a:active {
+    color: rgb(0, 255, 81);
+} */
 
 a:link, a:visited {
     text-decoration: none;
+}
+/* link control end */
+
+/* nav bar start */
+.nav-logo {
+    margin-left: 80px;
 }
 
 .nav-container {
     display: flex;
     gap: 8px;
-    align-items: flex-start;
-    background-color: #010101;
+    align-items: center;
+    /*background-image: */
     font-weight: 800px;
-    font-size: 25px;
     padding: 20px; 
-}
-
-.nav-container > * {
+    justify-content: center;
     color: yellow;
-    margin-top: 10px;
-  
-} 
-
-.nav-logo {
-    margin-left: 24x;
     font-family: Chalkduster, fantasy;
-    font-size: 34px;
-    color: red;
-    text-shadow: 1px 1px yellow;
-    margin: auto;
-    
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+.mem {
+    margin-right: auto;
 }
 
+.about {
+    margin-left: auto;
+}
+   
+.payment {
+    margin-right: 80px;
+}
+ /* nav bar end*/
 .about-container {
     display: flex;
     justify-content: space-evenly;
@@ -100,12 +112,14 @@ img {
     color: red;
     text-shadow: 1px 1px yellow;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 .hoursetc {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
     
 }
 .aboutus {
@@ -137,5 +151,5 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 90px;
 }
