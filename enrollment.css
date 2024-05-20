@@ -10,7 +10,7 @@ a:link {
 }
 
 a:visited {
-    color: White;
+    color: black;
     font-style: normal;
 }
 
@@ -32,43 +32,48 @@ a:link, a:visited {
     align-items: center;
     background-image: linear-gradient(to right, black, red, black, yellow, black, red, black);
     font-weight: 800px;
-    font-size: 15px;
     padding: 20px; 
     justify-content: center;
-}
-.home,
-.media,
-.mem {
-    margin-left: 80px;
+    color: black;
+    font-family: Chalkduster, fantasy;
+    font-size: 32px;
+    text-shadow: 1px 1px yellow;
+    font-style: italic;
+    flex-wrap: wrap;
 }
 
-.trainer,
-.about,
-.roster {
+
+.mem {
+    
+    margin-right: auto;
+   
+}
+
+.trainer {
+    margin-left: auto;
+}
+   
+.about {
     margin-right: 80px;
 }
-.nav-container > * {
-    color: white;
+
+.home {
+    margin-left: 80px;
+}
+/*.nav-container > * {
+    color: black;
     margin-top: 5px;
     font-family: Chalkduster, fantasy;
-    font-size: 34px;
-    text-shadow: 1px 1px black;
+    font-size: 24px;
+    text-shadow: 1px 1px yellow;
     font-style: italic;
     flex-wrap: wrap;
   
-} 
+} */
 
-img {
-    width: 300px;
-    display: flex;
-    justify-content: center;
-}
-.nav-logo {
-    /*margin-left: 24x;*/
-    font-family: Chalkduster, fantasy;
-    margin-left: auto;
-    margin-right: auto;
-} 
+
+
+
 /* start of form */
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
@@ -82,7 +87,7 @@ body, html {
 
 body {
   font-size: 1.2em;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/logo.webp) center no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/logo.webp) center no-repeat cover;
   -moz-animation: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
