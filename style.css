@@ -1,21 +1,18 @@
 /* nav bar start */
 * {
     margin: 0;
-    border: 2px solid red;
+    
     flex-wrap: wrap;
     
     
 }
-/* body {
-    background-image: url('images/bricks.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+body {
+    background: linear-gradient(45deg,grey, black)
  }
- */
+ 
 /* link control start */
 a:link {
-    color: none; 
+    color: red; 
 }
 
 a:visited {
@@ -47,7 +44,6 @@ a:link, a:visited {
     display: flex;
     gap: 8px;
     align-items: center;
-    /*background-image: */
     font-weight: 800px;
     padding: 20px; 
     justify-content: center;
@@ -57,6 +53,9 @@ a:link, a:visited {
     text-shadow: 1px 1px black;
     font-style: italic;
     flex-wrap: wrap;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 .mem {
     margin-right: auto;
@@ -69,38 +68,27 @@ a:link, a:visited {
 .payment {
     margin-right: 80px;
 }
- /* nav bar end*/
-
- /* call to action section */
-.cta-logo {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-}
+/* nav bar end*/
 /* message box start */
 .quote-container {
     display: flex;
     overflow: hidden;
     border: 2px red;
     height: 300px;
-    background-color: #000000;
-    background-image: url('images/bricks.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(90deg, red, black, red);
     justify-content: center;
-    margin: 0;
-    margin: 8px 200px 8px 200px;
+    margin: 100px 200px 50px 200px;
     align-items: center;
     flex-wrap: wrap;
     min-width: fit-content;
     min-height: fit-content;
-
-   
-    
+    color: white;
+    border-radius: 20px;
+    box-shadow: black;
+    margin-top: 200px;;
 }
 .quote-text {
-    color: red;
+    color: white;
     font-size: 24px;
     font-style: italic;
     font-weight: 50px;
@@ -109,23 +97,24 @@ a:link, a:visited {
     margin-bottom: 20px;
    
 }
-
 .options {
     display: flex;
     gap: 18px;
-    color: red;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    text-shadow: 1px 1px yellow;
+    text-shadow: 1px 1px black;
     font-style: bold;
     flex-wrap: wrap;
+    margin-bottom: 30px;
+    list-style: none;
 }
 #button  {
     font-size: 32px;
     display: flex;
     align-items: center;
     font-family: Chalkduster, fantasy;
-    background-color: yellow;
+    background-color: black;
     color: white;
     margin: auto;
     margin-top: 8px;
@@ -152,7 +141,7 @@ a:link, a:visited {
     height: auto;
     outline: yellow;
     flex-wrap: wrap;  
-   
+    margin-bottom: 30px;
 }
 .text {
     padding: 6px;
@@ -180,7 +169,6 @@ footer {
     margin: 0;
     padding: 20px;
     margin-top: auto;
-    
 }
 
 .container {
