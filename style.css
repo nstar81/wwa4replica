@@ -82,7 +82,7 @@ a:link, a:visited {
     box-shadow: 5px 5px black;
     margin-top: 200px;
     margin-bottom: 50px;
-    width: 70vw;
+    width: 50vw;
 }
 .quote-text {
     color: white;
@@ -135,6 +135,8 @@ a:link, a:visited {
 
 .info {
     max-width: 500px;
+    box-shadow: 5px 5px grey;
+    flex-wrap: wrap;
 }
 
 .showtime {
