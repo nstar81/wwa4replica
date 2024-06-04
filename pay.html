@@ -4,59 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pay.css">
-    <title>WWA4</title>
+    <title>Options</title>
 </head>
 <body>
        <!-- start of nav bar -->
-     <nav>
+       <nav>
         <div class="nav-container">
             <div class="nav-logo"><a href="./index.html"><img src="./images/logo.webp" alt="Logo for WWA4 that is red, black and yellow" style="width: 200px; height: auto;"></a>  </div>
             <div class="about"><a href="about.html">About</a></div>
             <div class="enroll"><a href="form.html">Enroll</a></div>
-            <div class="payment"><a href="pay.html">Pay</a></div>    
+            <div class="payment"><a href="pay.html">Pay</a></div> 
+              
         </div>
     </nav> 
     <!-- nav bar end-->
-  
-<!-- images start below-->
-    
-    <images>
-        <div class="title">Getting Started is Easy! Check out our membership options!</div>
-        
-        <div class="boxes">
-
-         <div class="info">
-             <h1>Crash Course</h1>
-             <div class="text">$525.00:  6-day crash course. The 6-day crash course is equal to 2 weeks</div>
-            
-         </div>
-         <div class="info">
-             <h1>6 Month Program</h1>
-             <div class="text">$2,200.00:  6-month intensive training program.</div>
-         
-         </div>
-
-         <div class="info">
-             <h1>Payment plan</h1>
-             <div class="text">$500 due every two weeks. This payment DOES NOT depend on your attendance. Once you agree to a payment plan, 
-                $500 is due every two weeks. 1 missed payment will void the payment plan agreement. If your payment plan is voided, you must pay your remaining balance due to continue
-             </div>
-         </div>    
-         </div>
-         
-        </div>  
-    </images>  
-        <div class="container">
-        <div class="action">
-            <div class="refund">NO REFUNDS, NO EXCEPTIONS</div>
+    <!--start of cards-->
+    <div class="enrolloptions">
+        <div class="options">
+            <h2 class="course">Six Day Crash Course</h2>
+            <p class="pricing">$525</p>
         </div>
+        <div class="options">
+            <h2 class="course">6 Month Course</h2>
+            <p class="pricing">$2,200</p>
         </div>
-
-        <div class="button"><button><a href="./enrollment.html">Pay</a></button></div>    
-    
-    <div class="footer">
-        <footer>©1995 - 2024 World Wrestling Alliance - Developed by ©North Star Creations</footer>
+        <div class="options">
+            <h2 class="course">6 Month Course </h2>
+            <p class="pricing">$3000</p>
+        </div>   
     </div>
-   
+    <div class="button">
+        <button><a href="form.html">Enroll</a></button>
+    </div>
+    <!--end of cards-->
+    <h2 class="course">Have questions or want to schedule a tour contact us</h2>
+    <form method="post" action="mailto:wwa4atl@gmail.com"><!--change destination to google sheets-->
+        <fieldset>
+          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+          <label for="phone-number">Enter your phone number: <input id="number" name="number" type="number" pattern="(123) 456-7890" required /></label>
+        </fieldset>
+      
+        <fieldset>
+         <!-- <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>-->
+         <fieldset>
+            <legend>Choose one</legend>
+            <label for="crashcourse"><input id="crashcourse" type="radio" name="program" class="inline" checked />Tour the Facility</label>
+            <label for="sixmonths"><input id="sixmonths" type="radio" name="program" class="inline" /> Additional Questions</label>
+          </fieldset>
+          
+          <label for="bio">Add a message
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Your message here..."></textarea>
+          </label>
+        </fieldset>
+        </label>
+        <a href="mailto:wwa4atl@gmail.com">
+        <input type="submit" value="Submit" />
+        </a>
 </body>
 </html>

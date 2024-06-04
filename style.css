@@ -6,9 +6,9 @@
     
     
 }
-body {
+/*body {
     background: linear-gradient(45deg,grey, black)
- }
+ } */
  
 /* link control start */
 a:link {
@@ -37,7 +37,7 @@ a:link, a:visited {
 
 /* nav bar start */
 .nav-logo {
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .nav-container {
@@ -57,16 +57,13 @@ a:link, a:visited {
     width: 100vw;
     top: 0;
 }
-.mem {
-    margin-right: auto;
-}
 
 .about {
     margin-left: auto;
 }
    
-.payment {
-    margin-right: 80px;
+.enroll {
+    margin-right: 40px;
 }
 /* nav bar end*/
 /* message box start */
@@ -85,7 +82,7 @@ a:link, a:visited {
     color: white;
     border-radius: 20px;
     box-shadow: black;
-    margin-top: 200px;;
+    margin-top: 200px;
 }
 .quote-text {
     color: white;
