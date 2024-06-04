@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="options.css">
+    <title>Options</title>
+</head>
+<body>
+       <!-- start of nav bar -->
+       <nav>
+        <div class="nav-container">
+            <div class="nav-logo"><a href="./index.html"><img src="./images/logo.webp" alt="Logo for WWA4 that is red, black and yellow" style="width: 200px; height: auto;"></a>  </div>
+            <div class="about"><a href="about.html">About</a></div>
+            <div class=""><a href="options.html">course</a></div> 
+            <div class="enroll"><a href="form.html">Enroll</a></div>
+            <div class="payment"><a href="pay.html">Pay</a></div> 
+              
+        </div>
+    </nav> 
+    <!-- nav bar end-->
+    <!--start of cards-->
+    <div class="enrolloptions">
+        <div class="options">
+            <h2 class="course">Six Day Crash Course</h2>
+            <p class="pricing">$525</p>
+        </div>
+        <div class="options">
+            <h2 class="course">6 Month Course</h2>
+            <p class="pricing">$2,200</p>
+        </div>
+        <div class="options">
+            <h2 class="course">6 Month Course </h2>
+            <p class="pricing">$3000</p>
+        </div>   
+    </div>
+    <div class="button">
+        <button><a href="form.html">Enroll</a></button>
+    </div>
+    <!--end of cards-->
+    <h2 class="course">Have questions or want to schedule a tour contact us</h2>
+    <form method="post" action=><!--change destination to google sheets-->
+        <fieldset>
+          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+          <label for="phone-number">Enter your phone number: <input id="number" name="number" type="number" pattern="(123) 456-7890" required /></label>
+        </fieldset>
+      
+        <fieldset>
+         <!-- <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>-->
+         <fieldset>
+            <legend>Choose one</legend>
+            <label for="crashcourse"><input id="crashcourse" type="radio" name="program" class="inline" checked />Tour the Facility</label>
+            <label for="sixmonths"><input id="sixmonths" type="radio" name="program" class="inline" /> Additional Questions</label>
+          </fieldset>
+          
+          <label for="bio">Add a message
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Your message here..."></textarea>
+          </label>
+        </fieldset>
+        </label>
+        <input type="submit" value="Submit" />
+</body>
+</html>
