@@ -56,12 +56,12 @@
     </div>
     <!--end of cards-->
     <h2 class="course">Have questions or want to schedule a tour contact us</h2>
-    <form method="post" action="mailto:wwa4atl@gmail.com"><!--change destination to google sheets-->
+    <form method="post" action="mailto:wwa4atl@gmail.com" autocomplete="on"><!--change destination to google sheets-->
         <fieldset>
-          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-          <label for="phone-number">Enter your phone number: <input id="number" name="number" type="number" pattern="(123) 456-7890" required /></label>
+          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" autocomplete="on" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" autocomplete="on" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" autocomplete="on" required /></label>
+          <label for="phone-number">Enter your phone number: <input id="phone-number" name="number" type="number" pattern="(123) 456-7890" autocomplete="on" required /></label>
         </fieldset>
       
         <fieldset>
@@ -80,7 +80,7 @@
         <a href="mailto:wwa4atl@gmail.com">
         <input type="submit" value="Submit" />
         </a>
-    
+    </form>
         <div class="footer">
             <footer>©1995 - 2024 World Wrestling Alliance - Developed by ©North Star Creations</footer>
         </div>

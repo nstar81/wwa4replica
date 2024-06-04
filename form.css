@@ -24,7 +24,7 @@ a:link, a:visited {
 
 /* nav bar start */
 .nav-logo {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .nav-container {
@@ -42,16 +42,13 @@ a:link, a:visited {
   font-style: italic;
   flex-wrap: wrap;
 }
-.mem {
-  margin-right: auto;
-}
 
 .about {
   margin-left: auto;
 }
  
 .payment {
-  margin-right: 80px;
+  margin-right: 40px;
 }
 body {
     width: 100%;
