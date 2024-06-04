@@ -1,7 +1,7 @@
 /* nav bar start */
 * {
     margin: 0;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     flex-wrap: wrap;
     
 }
@@ -51,10 +51,6 @@ a:link, a:visited {
     font-style: italic;
     flex-wrap: wrap;
 }
-.mem {
-    margin-right: auto;
-}
-
 .about {
     margin-left: auto;
 }
@@ -74,76 +70,143 @@ a:link, a:visited {
 p , li {
     font-family: Felt, fantasy;
 }
-img {
-    width: 300px;
-    height: 300px;
-}
 
-.yourtrainer {
-    font-family: Chalkduster, fantasy;
-    font-size: 34px;
-    color: red;
-    text-shadow: 1px 1px yellow;
-    margin: auto;
-}
-
-.achievements {
-    font-family: Chalkduster, fantasy;
-    font-size: 34px;
-    color: red;
-    text-shadow: 1px 1px yellow;
-    margin: auto;
-}
 .content {
     width: 600px;
-}
-
-.achieve {
-    display: flex;
-   
 }
 
 .title {
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    
     font-family: Chalkduster, fantasy;
     font-size: 34px;
-    color: red;
-    text-shadow: 1px 1px yellow;
+    color: black;
+    text-shadow: 1px 1px red;
     margin: auto;
     margin-bottom: 15px;
 }
-
+.line {
+    width: 90vw;
+    height: 2px;
+    background: linear-gradient(45deg, red, gray);
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
 .hoursetc {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    
+  
 }
 .aboutus {
-    margin-left: 200px;
+    margin-left: 20px;
 }
-.memperk {
-    margin-left: 350px;
-}
-
-.training {
-    margin-left: 200px;
-}
-
-
 .info {
     display: flex;
-    justify-content: s;
+    
 
 }
 .norefund {
     color: red;
-    font-weight: 800px;
+    font-weight: bold;
     
 }
+/* start of cards */
+.enrolloptions {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+  }
+  .options {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px gray;
+  }
+  .course, .pricing {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;  
+  }
+  /* end of cards */
+  /*contact us section start*/
+  .contactus {
+    display: flex;
+  }
+  form {
+    width: 50vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
 footer {
     background-color: #000000;
     color: white;

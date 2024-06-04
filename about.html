@@ -17,56 +17,11 @@
         </div>
     </nav> 
     <!-- nav bar end-->
-
-   
-    <div class="about-container">
         
-            
-        <div><img src="./images/dantefox.webp"></div>
-
-        <div class="content"> 
-            <div class="yourtrainer">Trainer</div>
-                <p>Our trainer, Lucha Underground's Dante Fox, also known for his remarkable independent career as AR Fox. 
-                Over the past decade, he has trained, wrestled, and held championships in seven countries, including Japan, China, England, Germany, and Chile.
-                His career began in 2007, right here at the WWA4! After years of perfecting his craft here and in dojos all over the world, in 2015, 
-                the eager student decided to return to Atlanta to share his knowledge, technique, and the importance of safety, by becoming the head trainer of WWA4. 
-                By the new year, he ushered in a fresh perspective to the thriving school. With a great mind for the business and a fresh competitive curriculum, he's 
-                taken the World Wrestling Alliance 4 school to new heights.
-                In 2016 he reached one of his lives goals of wrestling on international television. When he signed to Lucha Underground, airing every 
-                Wednesday at 8 pm on the El Rey Network. As it seemed to be one of his highest moments, things got even better, as March 2017 Lucha Underground became 
-                the only televised professional wrestling show to air on Netflix! Which means our trainer's wrestling reaches the largest audience in the world. So check 
-                out the first two complete seasons of Lucha Underground on Netflix, the largest streaming brand there is.</p>
-        </div>
-
-        <div class="achieve">
-            <div><img src="./images/foxflip.webp"></div>               
-                <ul>
-                    <div class="achievements">Achievements</div>
-                    <li>AAW Heritage Championship</li>
-                    <li>CLL International All Star Championship</li>
-                    <li>Tornea Sala de Campeones</li>
-                    <li>CZW World Junior Heavyweight championship</li>
-                    <li>CZW Wired TV Championship</li>
-                    <li>Queen and King of the Ring (with Athena)</li>
-                    <li>Dragon Gate USA Open the United Gate Championship</li>
-                    <li>Dreamwave Alternative Championship</li>
-                    <li>Evolve Championship​</li>
-                    <li>Evolve Championship Tournament 2013</li>
-                    <li>Style Battle Tournament 2011</li>
-                    <li>FIP Jeff Peterson Memorial Cup 2011</li>
-                    <li>SWA Tag Team Championship (with Moose)</li>
-                </ul>
-            </div>
-    </div>
-        
-            
-            
     <div class="title">
-            <div class="aboutus">About Us</div>
-            <div class="memperk">Membership Perks</div>
-            <div class="training">Training</div>
+            <div class="aboutus">About us and Membership details</div>
     </div>
-
+    <div class="line"></div>
     <div class="hoursetc">
             <div class="info">
              <ul>
@@ -86,18 +41,51 @@
                 <li>Three rings:  one 20 foot and two 18 foot rings</li>
                 <li>You can leave & comback at any time</li>              
             </ul>
-        </div>
-            <div class="whattolearn">
-            <ul>
-                <li>Mat Wrestling </li>
-                <li>Hight Flying Lucha</li>
-                <li>Ring Announcing​</li>
-                <li>Managing, Valet</li>
-                <li>Cutting Promos</li>              
-            </ul>
-            </div>           
+        </div>         
     </div>
-       
+    <div class="enrolloptions">
+        <div class="options">
+            <h2 class="course">Six Day Crash Course</h2>
+            <p class="pricing">$525</p>
+        </div>
+        <div class="options">
+            <h2 class="course">6 Month Course</h2>
+            <p class="pricing">$2,200</p>
+        </div>
+        <div class="options">
+            <h2 class="course">6 Month Course </h2>
+            <p class="pricing">$3000</p>
+        </div>   
+    </div>
+    <div class="button">
+        <button><a href="form.html">Enroll</a></button>
+    </div>
+    <!--end of cards-->
+    <h2 class="course">Have questions or want to schedule a tour contact us</h2>
+    <form method="post" action="mailto:wwa4atl@gmail.com"><!--change destination to google sheets-->
+        <fieldset>
+          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+          <label for="phone-number">Enter your phone number: <input id="number" name="number" type="number" pattern="(123) 456-7890" required /></label>
+        </fieldset>
+      
+        <fieldset>
+         <!-- <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>-->
+         <fieldset>
+            <legend>Choose one</legend>
+            <label for="crashcourse"><input id="crashcourse" type="radio" name="program" class="inline" checked />Tour the Facility</label>
+            <label for="sixmonths"><input id="sixmonths" type="radio" name="program" class="inline" /> Additional Questions</label>
+          </fieldset>
+          
+          <label for="bio">Add a message
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Your message here..."></textarea>
+          </label>
+        </fieldset>
+        </label>
+        <a href="mailto:wwa4atl@gmail.com">
+        <input type="submit" value="Submit" />
+        </a>
     
         <div class="footer">
             <footer>©1995 - 2024 World Wrestling Alliance - Developed by ©North Star Creations</footer>
