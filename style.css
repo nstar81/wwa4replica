@@ -1,10 +1,18 @@
 /* nav bar start */
+    /* Styles for mobile devices */
+@media only screen and (max-width: 768px) { 
+    body {
+      font-size: 16px;
+    }
+    .content {
+      width: 90%;
+   }
+ }
+
 * {
     margin: 0;
     
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;     
 }
 /*body {
     background: linear-gradient(45deg,grey, black)
@@ -63,7 +71,7 @@ a:link, a:visited {
 }
    
 .enroll {
-    margin-right: 40px;
+    margin-right: 80px;
 }
 /* nav bar end*/
 /* message box start */
@@ -153,7 +161,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 20px;
-    margin-top: auto;
+    margin-top: 300px;
 }
 
 .container {
