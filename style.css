@@ -1,196 +1,180 @@
 /* nav bar start */
-    /* Styles for mobile devices */
-@media only screen and (max-width: 768px) { 
-    body {
-      font-size: 16px;
-    }
-    .content {
-      width: 90%;
-   }
- }
-
-* {
-    margin: 0;
-    
-    flex-wrap: wrap;     
+/* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .content {
+    width: 90%;
+  }
 }
-/*body {
-    background: linear-gradient(45deg,grey, black)
- } */
- 
+* {
+  margin: 0;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+}
 /* link control start */
 a:link {
-    color: red; 
+  color: white;
 }
 
 a:visited {
-    color: red;
-    font-style: normal;
+  color: white;
+  font-style: normal;
 }
-
 a:hover {
-    color: black;
-    /* background-image: linear-gradient(to right, red, black, red);*/
-    text-shadow: 1px 1px red;
+  color: white;
+  /* background-image: linear-gradient(to right, red, black, red);*/
+  text-shadow: 1px 1px red;
 }
-
-/* a:active {
-    color: rgb(0, 255, 81);
-} */
-
-a:link, a:visited {
-    text-decoration: none;
+a:link,
+a:visited {
+  text-decoration: none;
 }
 /* link control end */
 
 /* nav bar start */
 .nav-logo {
-    margin-left: 40px;
+  margin-left: 5px;
+  margin-bottom: 2px;
 }
 
 .nav-container {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    font-weight: 800px;
-    padding: 20px; 
-    justify-content: center;
-    color: yellow;
-    font-family: Chalkduster, fantasy;
-    font-size: 18px;
-    text-shadow: 1px 1px black;
-    font-style: italic;
-    flex-wrap: wrap;
-    position: fixed;
-    width: 100vw;
-    top: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 800px;
+  padding: 20px;
+  justify-content: space-between;
+  font-family: Chalkduster, fantasy;
+  font-size: 18px;
+  text-shadow: 1px 1px red;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  box-shadow: 1px 1px red;
 }
-
 .about {
-    margin-left: auto;
+  margin-left: auto;
 }
-   
 .enroll {
-    margin-right: 80px;
+  margin-right: 50px;
 }
 /* nav bar end*/
 /* message box start */
 .quote-container {
-    display: flex;
-    overflow: hidden;
-    text-align: center;
-    height: 300px;
-    background: gray;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    flex-wrap: wrap;
-    color: white;
-    border-radius: 20px;
-    box-shadow: 5px 5px black;
-    margin-top: 200px;
-    margin-bottom: 50px;
-    width: 50vw;
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 20px;
+
+  margin-top: 100px;
+  width: 50vw;
 }
 .quote-text {
-    color: white;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 50px;
-    display: flex;
-    justify-content: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 50px;
+  display: flex;
+  justify-content: center;
 }
 .enrollment {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-#button  {
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    font-family: Chalkduster, fantasy;
-    background-color: black;
-    color: white;
-    margin: auto;
-    margin-top: 8px;
+#button {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  font-family: Chalkduster, fantasy;
+  background: black;
+  margin: auto;
 }
 /* message box end */
 /*third section with images */
 .title {
-    display: flex;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: 800;
-    margin-bottom: 32px;
-    margin-top: 8px;
-    font-family: Marker Felt, fantasy;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  font-family: Marker Felt, fantasy;
 }
 .boxes {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    height: auto;
-    outline: yellow;
-    flex-wrap: wrap;  
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: auto;
+  outline: yellow;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .text {
-    padding: 6px;
-    text-align: center;
-    font-family: Chalkduster, fantasy;
-    
+  padding: 6px;
+  text-align: center;
+  font-family: Chalkduster, fantasy;
 }
 
 .info {
-    max-width: 500px;
-    box-shadow: 5px 5px grey;
-    flex-wrap: wrap;
+  max-width: 500px;
+  box-shadow: 1px 1px red;
+  flex-wrap: wrap;
 }
 
 .showtime {
-    display: flex;
-    margin-top: 15px;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 footer {
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 20px;
-    margin-top: 300px;
+  background-color: #000000;
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  margin-top: 200px;
+  position: fixed;
+  margin-left: 250px;
 }
 
 .container {
-    display: flex; /* Enables Flexbox for the container */
-    justify-content: space-around;
-    gap: 8pxpx;
-    background-color: #f63838;
-    width: 900px;
-    height: auto;
-    align-self: center;
-    margin: auto;
-    margin-bottom: 75px;
-    margin-top: 75px;
-    color: black;
-    padding: 16px;
-  }
+  display: flex; /* Enables Flexbox for the container */
+  justify-content: space-around;
+  gap: 8pxpx;
+  background-color: #f63838;
+  width: 900px;
+  height: auto;
+  align-self: center;
+  margin: auto;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  color: black;
+  padding: 16px;
+}
 
-  .click {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    margin-left: 16px;
-  }
+.click {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 16px;
+}
 
-  .text-head {
-    font-size: 24px;
-    font-weight: 800;
-  }
+.text-head {
+  font-size: 24px;
+  font-weight: 800;
+}
 
-  .text-body {
-    margin-top: 6px;
-  }
+.text-body {
+  margin-top: 6px;
+}
